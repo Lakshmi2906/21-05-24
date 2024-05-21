@@ -1,0 +1,4 @@
+def count_black_cells(n):
+    return (n // 2) * n
+n = int(input())
+print(count_black_cells(n))
