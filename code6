@@ -1,0 +1,5 @@
+a, b, c, d = map(int, input("Enter rectangle four sides of length: ").split())
+if (a == b and c == d) or (a == c and b == d) or (a == d and b == c):
+    print("Yes")
+else:
+    print("No")
