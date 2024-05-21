@@ -1,0 +1,15 @@
+unit = int(input("Enter the unit consumed: "))
+if unit <= 199:
+    tot= unit * 1.20
+elif unit < 400:
+    tot = unit * 1.50
+elif unit < 600:
+    tot= unit * 1.80
+else:
+    tot= unit * 2.00
+if tot> 400:
+    surcharge = tot* 0.15
+    tot+= surcharge
+if tot< 100:
+    tot= 100
+print("Total amount to be paid: Rs.", total_amount)
