@@ -1,0 +1,12 @@
+T = int(input())
+for _ in range(T):
+    A = input()
+    B = input()
+    res= ''
+    for char in B:
+        if char not in A:
+            res+= char
+    if res:
+        print(''.join(sorted(res)))
+    else:
+        print(-1)
