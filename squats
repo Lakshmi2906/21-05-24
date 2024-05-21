@@ -1,0 +1,6 @@
+T = int(input())
+for i in range(0,T):
+    # Read the value of X
+    X = int(input())
+    total_squats = X * 15
+    print(total_squats)
