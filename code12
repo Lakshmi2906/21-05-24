@@ -1,0 +1,11 @@
+days = int(input("Enter how many days late you are: "))
+if days <= 0:
+    print("No fine")
+elif days> 30:
+    print("Your membership has been cancelled")
+elif days<= 5:
+    print("Your fine: Rs. 0.50")
+elif days<= 10:
+    print("Your fine: Rs. 1.00")
+else:
+    print("Your fine: Rs. 5.00")
