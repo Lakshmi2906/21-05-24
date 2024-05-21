@@ -1,0 +1,10 @@
+def check_insurance_eligibility(marital_status, gender, age):
+    return marital_status == 'M' or (marital_status == 'U' and ((gender == 'M' and age > 30) or (gender == 'F' and age > 25)))
+
+marital_status = input("Marital status (M/U): ")
+gender = input("Gender (M/F): ")
+age = int(input("Age: "))
+if check_insurance_eligibility(marital_status, gender, age): else "Not eligible"):
+  print("Eligible" )
+else :
+ print("Not eligible")
