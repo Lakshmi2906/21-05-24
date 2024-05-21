@@ -1,0 +1,6 @@
+num = int(input("Enter any integer: "))
+sqr = int(num ** 0.5)
+if sqr* sqr == num:
+    print("Yes")
+else:
+    print("No")
